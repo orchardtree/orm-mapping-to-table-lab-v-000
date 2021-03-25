@@ -39,8 +39,8 @@ class Student
   end
   
   def self.create(student) 
-    self.new(:name, :grade)
-    binding.pry
+    self.new(student[:name], student[:grade])
+    #binding.pry
   end
 end
 
