@@ -40,6 +40,7 @@ class Student
   
   def self.create(student) 
     self.new(student)
+    binding.pry
   end
 end
 
